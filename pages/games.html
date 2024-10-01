@@ -4,6 +4,14 @@
         <meta charset = "utf-8">
         <title> Games </title>
         <style>
+            h1 {
+                color:purple;
+            }
+
+            p {
+                font-size:xx-large;
+            }
+
             .navbar {
                 font-size:xx-large;
                 background-color:#dddddd;
@@ -28,34 +36,25 @@
                 padding:6px;
             }
 
-            #canvas {
-                padding-left: 0;
-                padding-right: 0;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top:25px;
-                display: block;
-            }
         </style>
     </head>
     <body>
         <div>
             <nav class="navbar">
-                <a href="/pages/index.html">Home</a>
-                <a href="/pages/games.html">Games</a>
+                <a href="index.html">Home</a>
+                <a href="games.html">Games</a>
             </nav>
         </div>
         <div>
             <nav class="subnavbar">
-                <a href="paint.html">Paint</a>
-                <a href="../snake/snake.html">Snake</a>
-                <a href="../helicopter/helicopter.html">Helicopter</a>
-                <a href="../tic-tac-toe/tic-tac-toe.html">Tic-Tac-Toe</a>
+                <a href="../games/paint/paint.html">Paint</a>
+                <a href="../games/snake/snake.html">Snake</a>
+                <a href="../games/helicopter/helicopter.html">Helicopter</a>
+                <a href="../games/tic-tac-toe/tic-tac-toe.html">Tic-Tac-Toe</a>
             </nav>
-        </div>
-        <canvas id="canvas" width="400" height="480" style="border:5px solid #000000;"></canvas>
-        
-        <script src="https://cdn.codehs.com/chs-js-lib/0.2.21/dist/chs.iife.js"></script>
-        <script src="paint.js"></script>
+        </div> 
+        <h1>
+            Select a game to play!
+        </h1>
     </body>
 </html>
